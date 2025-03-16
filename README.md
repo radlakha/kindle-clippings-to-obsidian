@@ -58,7 +58,7 @@ git clone https://github.com/dannberg/kindle-clippings-to-obsidian.git
 ```bash
 python3 -m venv ~/venvs/kindle-clippings-to-obsidian
 source ~/venvs/kindle-clippings-to-obsidian/bin/activate
-install python-dateutil
+pip3 install python-dateutil
 ```
 
 Once done remember to source the correct venv before you run the script
