@@ -53,6 +53,16 @@ It’s an integral part of my [personal Obsidian Book Note system](https://dannb
 git clone https://github.com/dannberg/kindle-clippings-to-obsidian.git
 ```
 
+1.a. You may need to setup your dev environment
+
+```bash
+python3 -m venv ~/venvs/kindle-clippings-to-obsidian
+source ~/venvs/kindle-clippings-to-obsidian/bin/activate
+install python-dateutil
+```
+
+Once done remember to source the correct venv before you run the script
+
 2. Make the script executable:
 
 ```bash
